@@ -1,0 +1,37 @@
+{
+  "name": "zox-react",
+  "version": "1.0.0",
+  "description": "React SSR support for Zox",
+  "author": "Zoran Ravic <contact@zoranravic.com> (zoranravic.com)",
+  "license": "MIT",
+  "repository": "zoxjs/zox-react",
+  "homepage": "http://zoxjs.github.io/docs/react-ssr",
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "InitReact.js",
+    "InitReact.d.ts",
+    "ReactRenderable.js",
+    "ReactRenderable.d.ts"
+  ],
+  "keywords": [
+    "react",
+    "ssr",
+    "framework",
+    "server",
+    "zox"
+  ],
+  "devDependencies": {
+    "@types/react": "^16.4.6",
+    "@types/react-dom": "^16.0.6",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "zox": "^1.0.17",
+    "zox-plugins": "^1.0.3"
+  },
+  "scripts": {
+    "dev": "node examples/dev.js",
+    "build-js": "browserify examples/frontend.js -o examples/files/bundle.js -d",
+    "watch-js": "watchify examples/frontend.js -o examples/files/bundle.js -d"
+  }
+}
