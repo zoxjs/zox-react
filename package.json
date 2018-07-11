@@ -1,6 +1,6 @@
 {
   "name": "zox-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React SSR support for Zox",
   "author": "Zoran Ravic <contact@zoranravic.com> (zoranravic.com)",
   "license": "MIT",
