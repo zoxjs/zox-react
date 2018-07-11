@@ -5,7 +5,7 @@
   "author": "Zoran Ravic <contact@zoranravic.com> (zoranravic.com)",
   "license": "MIT",
   "repository": "zoxjs/zox-react",
-  "homepage": "http://zoxjs.github.io/docs/react-ssr",
+  "homepage": "http://zoxjs.com/docs/react-ssr",
   "files": [
     "LICENSE",
     "Readme.md",
